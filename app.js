@@ -52,12 +52,12 @@
 // const player = ["gata","1212","true", "little bit"];
 
 // objects
-const player = {
-    name: "gata",
-    points: 1212,
-    pretty: true,
-    fat: true
-};
+// const player = {
+//     name: "gata",
+//     points: 1212,
+//     pretty: true,
+//     fat: true
+// };
 // console.log(player);
 // console.log(player.points);
 // console.log(player.pretty);
@@ -68,8 +68,8 @@ const player = {
 // console.log(player["name"]);
 
 // objects 업데이트 하기
-player.fat = false;
-console.log(player);
+// player.fat = false;
+// console.log(player);
 
 //에러나는 경우
 // player = false;
@@ -79,6 +79,38 @@ console.log(player);
 // player.lastName = "Oh";
 // console.log(player);
 
-player.points = player.points + 1245;
-console.log(player);
+// player.points = player.points + 1245;
+// console.log(player);
 
+// #2.7 Functions part One
+// function sayHello() {
+//     console.log("Hello my name is C");
+// }
+
+// sayHello("gata");
+// sayHello("sarang");
+
+// #2.8 Functions part Two
+// function sayHello(nameOfPerson, age) {
+//     console.log("Hello my name is " + nameOfPerson + " and I'm " + age + " years old");
+// }
+
+// sayHello("gata", 27);
+// sayHello("sarang", 2);
+
+//간단한 계산기
+// function plus(a,b) {
+//     console.log(a,b);
+// }
+// plus(); //undefined undefined
+
+// function plus(a,b) {
+//     console.log(a + b);
+// }
+// plus(); //NaN (= Not a Number)
+
+// function plus(firstNumber, secondNumber) {
+//     console.log(firstNumber + secondNumber);
+// }
+
+// plus(8, 60); //실행버튼
