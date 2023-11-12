@@ -113,4 +113,4 @@
 //     console.log(firstNumber + secondNumber);
 // }
 
-// plus(8, 60); //실행버튼
+// plus(8, 60); //실행 버튼
