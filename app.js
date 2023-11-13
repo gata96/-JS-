@@ -132,3 +132,59 @@
 // };
 
 // player.sayHello("Lucas");
+
+//#2.10 Recap 2
+// const calculator = {
+//     plus: function (a, b) {
+//         console.log(a + b);
+//     },
+//     minus: function (a, b) {
+//         console.log(a - b);
+//     },
+//     times: function (a, b) {
+//         console.log(a * b);
+//     },
+//     divide: function (a, b) {
+//         console.log(a / b);
+//     },
+//     power: function (a, b) {
+//         console.log(a ** b);
+//     }
+// };
+
+// calculator.plus(7,2);
+// calculator.minus(10,2);
+// calculator.times(2,3);
+// calculator.divide(9,3);
+// calculator.power(3,3);
+
+//#2.11 Returns
+// const calculator = {
+//     plus: function (a, b) {
+//         return a + b;
+//     },
+//     minus: function (a, b) {
+//         return a - b;
+//     },
+//     times: function (a, b) {
+//         return a * b;
+//     },
+//     divide: function (a, b) {
+//         return a / b;
+//     },
+//     power: function (a, b) {
+//         return a ** b;
+//     }
+// }
+
+// const plusResult = calculator.plus(2, 3);
+// const minusResult = calculator.minus(plusResult, 1);
+// const timesResult = calculator.times(10, minusResult);
+// const divideResult = calculator.divide(timesResult, plusResult);
+// const powerResult = calculator.power(divideResult, minusResult);
+
+//#2.13 Conditionals
+const age = prompt("How old are you?");
+
+console.log(typeof "15", typeof parseInt("15"));
+console.log(age, parseInt(age));
