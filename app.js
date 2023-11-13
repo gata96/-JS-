@@ -13,6 +13,11 @@
 
 // console.log("My new name is " + myName);
 
+// const a= 5;
+// let isGataFat = true;
+// isGataFat = false;
+// console.log(isGataFat);
+
 //// #2.4 Booleans
 
 // const amIFat = true;
@@ -83,10 +88,10 @@
 // console.log(player);
 
 // #2.7 Functions part One
+// sayHello 안에 argument가 없음
 // function sayHello() {
 //     console.log("Hello my name is C");
 // }
-
 // sayHello("gata");
 // sayHello("sarang");
 
@@ -94,23 +99,36 @@
 // function sayHello(nameOfPerson, age) {
 //     console.log("Hello my name is " + nameOfPerson + " and I'm " + age + " years old");
 // }
-
 // sayHello("gata", 27);
 // sayHello("sarang", 2);
 
-//간단한 계산기
+// 결과: undefined undefined
 // function plus(a,b) {
 //     console.log(a,b);
 // }
-// plus(); //undefined undefined
+// plus();
 
 // function plus(a,b) {
 //     console.log(a + b);
 // }
 // plus(); //NaN (= Not a Number)
 
+//간단한 계산기
 // function plus(firstNumber, secondNumber) {
 //     console.log(firstNumber + secondNumber);
 // }
+// function divide(a, b) {
+//     console.log(a / b);
+// }
+// plus(8, 60);
+// divide(98, 20);
 
-// plus(8, 60); //실행 버튼
+//function이 object 안에 있을 때
+// const player = {
+//     name: "Gata",
+//     sayHello: function (otherPersonsName) {
+//         console.log("Hello " + otherPersonsName + " nice to meet you")
+//     },
+// };
+
+// player.sayHello("Lucas");
