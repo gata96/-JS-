@@ -184,7 +184,31 @@
 // const powerResult = calculator.power(divideResult, minusResult);
 
 //#2.13 Conditionals
-const age = prompt("How old are you?");
+// const age = prompt("How old are you?");
 
-console.log(typeof "15", typeof parseInt("15"));
-console.log(age, parseInt(age));
+// console.log(typeof "15", typeof parseInt("15"));
+// console.log(age, parseInt(age));
+
+//#2.14 Conditionals part Two
+// const age = parseInt(prompt("How old are you?"));
+
+// if (isNaN(age)) {
+//     console.log("Please write a number.");
+// } else {
+//     console.log("Thank you for writing your age.")
+// }
+
+//#2.5 Conditionals part Three
+const age = parseInt(prompt("How old are you?"));
+
+if (isNaN(age) || age < 0) {
+    console.log("Please write a real positive number.");
+} else if (age < 18) {
+    console.log("You are too young to drink.");
+} else if (age >= 18 && age <= 50) {
+    console.log("You can drink.")
+} else if (51 <= age && age <= 80) {
+    console.log("You need to exercise.")
+} else if (age > 80) {
+    console.log("You can do whatever you want.")
+}
